@@ -1,0 +1,13 @@
+{
+  "synthetic": true,
+  "note": "Todos os dados são fictícios e gerados por src/generate_data.py.",
+  "seed": 42,
+  "reference_date": "2026-11-15",
+  "rows": {
+    "employees": 400,
+    "accounts": 417,
+    "groups": 20,
+    "memberships": 1618,
+    "reviews": 227
+  }
+}

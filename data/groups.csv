@@ -1,0 +1,21 @@
+group_id,description,privilege_level,owner_department
+GG-All-Employees,Todos os colaboradores,low,Tecnologia
+GG-VPN-Users,Acesso à VPN corporativa,low,Tecnologia
+GG-Office365-E3,Licença Microsoft 365 E3,low,Tecnologia
+GG-Intranet-Editors,Edição da intranet,low,RH
+GG-CRM-Users,Uso do CRM,low,Comercial
+GG-Fin-Reports-Read,Leitura de relatórios financeiros,medium,Financeiro
+GG-Legal-Contracts,Acesso a contratos jurídicos,medium,Jurídico
+GG-DB-ReadOnly,Leitura em bancos de dados,medium,Tecnologia
+GG-Dev-Repo-Write,Escrita em repositórios de código,medium,Tecnologia
+GG-Audit-Log-Read,Leitura de logs de auditoria,medium,Risco e Compliance
+GG-Fin-AP-Create,Criação de contas a pagar,high,Financeiro
+GG-Fin-AP-Approve,Aprovação de contas a pagar,high,Financeiro
+GG-Pay-Initiate,Iniciação de pagamentos,high,Operações
+GG-Pay-Approve,Aprovação de pagamentos,critical,Operações
+GG-Prod-Deploy,Deploy em produção,high,Tecnologia
+GG-SIEM-Analysts,Analistas do SIEM,high,Segurança da Informação
+GG-HR-Payroll,Folha de pagamento,high,RH
+GG-DB-Admins,Administração de bancos de dados,critical,Tecnologia
+GG-Server-Admins,Administração de servidores,critical,Tecnologia
+GG-IAM-Admins,Administração de identidades e acessos,critical,Segurança da Informação
