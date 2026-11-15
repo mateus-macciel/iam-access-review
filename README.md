@@ -95,10 +95,13 @@ Cobertura de revisão dos acessos privilegiados: 92,0%. Revisões vencidas: 33.
 
 ## Dashboard (Power BI)
 
-Modelo de dados, medidas DAX e layout das páginas em [`docs/powerbi.md`](docs/powerbi.md).
+![Visão geral](docs/img/visao-geral.png)
 
-[Visão geral](docs/img/visao-geral.png)
+O dashboard lê as tabelas de `output/powerbi/` (modelo em estrela: `dim_account`, `dim_group`,
+`dim_rule`, `dim_severity`, `fact_finding`, `fact_membership`, `fact_review`) e mostra achados por
+regra, severidade e área, cobertura de revisão e contas em risco.
 
+- Arquivo: [`dashboard/Dashboard_IAM.pbix`](docs/Dashboard_IAM.pbix)
 
 ## Decisões de design
 
